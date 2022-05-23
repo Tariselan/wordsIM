@@ -2,7 +2,7 @@ body {
     background-image: linear-gradient(#FDF8D9,#EBD6B7);
 }
 div {
-    background-image: linear-gradient(#FDF8D9, #EBD6B7);
+    background-image: #EBD6B7;
 }
 div#poems {
     width: 180px;
