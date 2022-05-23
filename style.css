@@ -1,25 +1,28 @@
 body {
     background-image: linear-gradient(#FDF8D9,#EBD6B7);
 }
-div#poems {
+div#pages div {
     background-color: #FCD190;
     position: absolute;
+    top: 15px;
     width: 80px;
     height: 30px;
-    right: 40px; /*23 + 17*/
     text-align: center;
     padding: 5px;
     margin: 5px;
     border: 3px solid #E6B975;
     border-radius: 10px;
 }
-div#poems span {
+div#poems {
+    right: 40px; /*23 + 17*/
+}
+div#words {
+    left: 40px;
+    top: 34px; /*17x2*/
+}
+div span {
     margin: 0;
     position: relative;
     top: 20%;
     cursor: pointer;
   }
-div#pages div {
-    position: absolute;
-    top: 15px;
-}
