@@ -13,10 +13,10 @@ div#pages div {
     border: 3px solid #E6B975;
     border-radius: 10px;
 }
-div#poems {
+div#right {
     right: 40px; /*23 + 17*/
 }
-div#words {
+div#left {
     left: 40px;
     top: 34px; /*17x2*/
 }
@@ -25,4 +25,8 @@ div span {
     position: relative;
     top: 20%;
     cursor: pointer;
-  }
+}
+h1 {
+    text-align: center;
+    font-size: 75px;
+}
