@@ -7,7 +7,36 @@ function page(x) {
     window.location.replace(pages[x]);
 }
 // phrases -> 0 = I love you, 1 = I am the big cheese, 2 = Very, 3 = A lot, 4 = The big cat, 5 = The smollen (small kitten), 6 = Redacted
-// language codes 
+// language codes -> English = en, Spanish = es, French = fr, Italian = it, Hungarian = hu, Latin = la, Maori = mi
 let phrases = {
-    0
+    0: {
+        en: {
+            phr: "I love you",
+            ipa: "[aɪ lʌv juː]"
+        },
+        es: {
+            phr: "te amo",
+            ipa: "[t̪e ˈa.mo]"
+        },
+        fr: {
+            phr: "j'adore toi",
+            ipa: "[ʒa.dɔʁ twa]"
+        },
+        it: {
+            phr: "ti amo",
+            ipa: "[ti a.mo]"
+        },
+        hu: {
+            phr: "szeretlek",
+            ipa: "[ˈsɛrɛtlɛk]"
+        },
+        la: {
+            phr: "tē amō",
+            ipa: "[t̪ɛː ˈäːmo]"
+        },
+        mi: {
+            phr: "kei te aroha au i a koe",
+            ipa: "[kɛi t̼ɛ ɑrɔhɑ ɐu i ɑ kɔe]"
+        }
+    }
 }
