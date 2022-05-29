@@ -221,5 +221,10 @@ let phrases = {
         }
     }
 }
+let lang = 0;
 
-function language(n) {} // change language
+function language(n) {
+    if (n == 0) {
+
+    }
+} // change language    
