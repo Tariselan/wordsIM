@@ -1,0 +1,15 @@
+.row {
+    display: relative;
+}
+.column {
+    float: left;
+    background-color: #EBD6B7;
+    border: solid 2px #DAC5A6;
+    height: 550px;
+}
+#left, #middle {
+    width: 20%;
+} 
+#right {
+    width: 55%;
+}
