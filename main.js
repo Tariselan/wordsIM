@@ -228,3 +228,15 @@ function language(n) {
 
     }
 } // change language    
+
+// for poems \\
+function poem(x) {
+    if (x==0) {
+        // home
+        window.location.replace("poems.html");
+    }
+    else if (x==13) {
+        // My dearest sweet and hart analysis
+        window.location.replace("mynesweethart.html");
+    }
+}
